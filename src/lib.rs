@@ -88,7 +88,7 @@ use std::borrow::Borrow;
 use std::collections::{BTreeMap, VecDeque};
 use std::time::Duration;
 #[cfg(not(feature = "sn_fake_clock"))]
-use std::time::Instant;
+use instant::Instant;
 use std::usize;
 
 mod iter;
